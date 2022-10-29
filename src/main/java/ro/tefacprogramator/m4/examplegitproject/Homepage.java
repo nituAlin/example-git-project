@@ -10,4 +10,8 @@ public class Homepage {
     public String home(){
         return "Hello there";
     }
+    @GetMapping("/scond-page")
+    public String secondPage(){
+        return "Hello there";
+    }
 }
