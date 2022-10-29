@@ -8,10 +8,10 @@ public class Homepage {
     
     @GetMapping("/")
     public String home(){
-        return "Hello there";
+        return "Welcome to my app";
     }
     @GetMapping("/scond-page")
     public String secondPage(){
-        return "Hello there";
+        return "Welcome to second page";
     }
 }
